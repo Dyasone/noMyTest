@@ -1,0 +1,14 @@
+
+let arrBandName = [];
+function resultFunc(clothingColour, lastFoodEaten) {
+    const rawString = function capitalizeColor(clothingColour) {
+        if (clothingColour.substring[1] === clothingColour.toUpperCase().substring[1]){
+            clothingColour =  clothingColour[0].toUpperCase() + clothingColour.toLowerCase().substring(1);
+            return clothingColour;
+        }
+    }
+    rawString(lastFoodEaten);
+    arrBandName.push([clothingColour, lastFoodEaten]);
+    return `The ${rawString(clothingColour)} ${rawString(lastFoodEaten)}!\nUser Inputs:${arrBandName}`;
+} 
+console.log(resultFunc("askadh","JAHSd"));
